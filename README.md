@@ -284,4 +284,6 @@ Your `student_code` folder.
 ### Update Nov 17, 2021
 Q: When calculating the accuracy, how can we handle the unknown answer?
 
-A: You could ignore the "unknown" answer entry for counting correctness. It still gets counted as wrong. i.e., if answer_id is not self._val_dataset_loader.dataset.unknown_answer_index: num_correct += answer_score
+A: You could ignore the "unknown" answer entry for counting correctness. It still gets counted as wrong. i.e., 
+
+if answer_id is not self._val_dataset_loader.dataset.unknown_answer_index: num_correct += answer_score
